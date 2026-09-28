@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shree Laxmi Industry | Roofing Sheet Manufacturer, Deoghar, Jharkhand</title>
+<meta name="description" content="Shree Laxmi Industry manufactures roofing sheets in every colour and size from Rajadih, Mathurapur, Deoghar, Jharkhand — serving Jharkhand and customers in other states.">
+<meta name="theme-color" content="#33383C">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1D2023;
+    --graphite:#33383C;
+    --graphite-dark:#24272A;
+    --galvanize-light:#EEF0F0;
+    --paper:#FAFAF7;
+    --steel:#2E6B84;
+    --steel-dark:#1F4B5C;
+    --oxide:#C1442B;
+    --oxide-dark:#96331F;
+    --steel-tint:#DCEAEE;
+    --oxide-tint:#FBE3DB;
+    --line:rgba(29,32,35,0.12);
+    --radius:10px;
+    --maxw:1180px;
+  }
+
+  *,*::before,*::after{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:'IBM Plex Sans',sans-serif;
+    color:var(--ink);
+    background:var(--paper);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{
+    font-family:'Big Shoulders Display',sans-serif;
+    text-transform:uppercase;
+    line-height:0.98;
+    margin:0;
+    font-weight:800;
+    letter-spacing:0.005em;
+  }
+  p{margin:0;}
+  a{color:inherit;text-decoration:none;}
+  img{max-width:100%;display:block;}
+  button{font:inherit;background:none;border:none;}
+
+  a:focus-visible,button:focus-visible{outline:3px solid var(--oxide);outline-offset:3px;}
+
+  .skip-link{
+    position:absolute;left:-9999px;top:0;
+    background:var(--ink);color:#fff;padding:10px 16px;z-index:300;border-radius:6px;
+  }
+  .skip-link:focus{left:16px;top:16px;}
+
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px;}
+
+  .eyebrow{
+    display:inline-block;
+    font-family:'IBM Plex Mono',monospace;
+    text-transform:uppercase;
+    letter-spacing:0.14em;
+    font-size:0.76rem;
+    color:var(--oxide-dark);
+    font-weight:500;
+    margin-bottom:14px;
+  }
+
+  .section-title{font-size:clamp(1.9rem,4vw,2.9rem);margin-bottom:20px;max-width:20ch;}
+  .section-body{font-size:1.05rem;color:#42474B;max-width:60ch;}
+  .section-note{margin-top:28px;font-size:0.98rem;color:#42474B;}
+
+  .section{padding:clamp(64px,9vw,104px) 0;}
+  .section--alt{background:var(--galvanize-light);}
+  .section--dark{background:var(--graphite);color:#F2F3F3;}
+  .section--steel{background:var(--steel-tint);}
+  .section--oxide{background:var(--oxide-tint);}
+  .section--dark .section-body{color:#C7CBCC;}
+  .section--dark .eyebrow{color:#E9906F;}
+
+  /* header */
+  .site-header{
+    position:sticky;top:0;z-index:100;
+    background:rgba(250,250,247,0.92);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+    transition:box-shadow .2s ease;
+  }
+  .site-header.is-scrolled{box-shadow:0 2px 14px rgba(29,32,35,0.08);}
+  .nav-row{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 24px;position:relative;}
+  .logo{display:flex;flex-direction:column;line-height:0.9;}
+  .logo-main{font-family:'Big Shoulders Display',sans-serif;font-weight:800;font-size:1.35rem;letter-spacing:0.02em;}
+  .logo-sub{font-family:'IBM Plex Mono',monospace;font-size:0.6rem;letter-spacing:0.3em;color:var(--oxide-dark);margin-top:2px;}
+  .nav-links{display:flex;gap:26px;font-size:0.92rem;font-weight:500;}
+  .nav-links a{padding:6px 0;position:relative;}
+  .nav-links a::after{content:'';position:absolute;left:0;bottom:0;width:0;height:2px;background:var(--oxide);transition:width .2s ease;}
+  .nav-links a:hover::after{width:100%;}
+  .nav-actions{display:flex;align-items:center;gap:14px;}
+  .nav-toggle{display:none;flex-direction:column;justify-content:center;gap:5px;width:34px;height:34px;cursor:pointer;}
+  .nav-toggle span{display:block;width:100%;height:2px;background:var(--ink);transition:transform .2s ease,opacity .2s ease;}
+  .nav-toggle.active span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+  .nav-toggle.active span:nth-child(2){opacity:0;}
+  .nav-toggle.active span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+
+  /* buttons */
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:8px;
+    padding:13px 24px;border-radius:8px;font-weight:600;font-size:0.94rem;
+    border:2px solid transparent;transition:transform .15s ease,box-shadow .15s ease,background .15s ease,color .15s ease;
+    white-space:nowrap;cursor:pointer;
+  }
+  .btn-primary{background:var(--oxide);color:#fff;}
+  .btn-primary:hover{background:var(--oxide-dark);transform:translateY(-1px);}
+  .btn-outline{border-color:var(--ink);color:var(--ink);}
+  .btn-outline:hover{background:var(--ink);color:#fff;}
+  .btn-sm{padding:10px 18px;font-size:0.85rem;}
+
+  /* hero */
+  .hero{padding-top:clamp(48px,8vw,88px);overflow:hidden;background:linear-gradient(180deg,var(--steel-tint) 0%,var(--paper) 100%);}
+  .hero-grid{padding-bottom:52px;}
+  .hero-title{font-size:clamp(2.5rem,6.4vw,4.6rem);max-width:15ch;animation:fadeUp .7s ease both;animation-delay:.08s;}
+  .hero-sub{margin-top:24px;font-size:1.1rem;color:#42474B;max-width:54ch;animation:fadeUp .7s ease both;animation-delay:.16s;}
+  .hero-actions{margin-top:34px;display:flex;gap:16px;flex-wrap:wrap;animation:fadeUp .7s ease both;animation-delay:.24s;}
+  .hero .eyebrow{animation:fadeUp .7s ease both;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+
+  .swatch-marquee{overflow:hidden;background:var(--graphite);padding:16px 0;border-top:1px solid rgba(255,255,255,0.08);}
+  .swatch-track{display:flex;gap:14px;width:max-content;animation:scrollx 32s linear infinite;}
+  .marquee-chip{
+    flex:0 0 auto;width:136px;height:48px;border-radius:6px;
+    display:flex;align-items:center;justify-content:center;
+    background-color:var(--swatch);
+    background-image:repeating-linear-gradient(100deg,rgba(255,255,255,0.24) 0 3px,rgba(0,0,0,0.18) 3px 6px);
+  }
+  .marquee-chip span{
+    font-family:'IBM Plex Mono',monospace;font-size:0.68rem;letter-spacing:0.03em;color:#fff;
+    background:rgba(0,0,0,0.4);padding:3px 8px;border-radius:4px;
+  }
+  @keyframes scrollx{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+
+  /* about */
+  .about-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:56px;align-items:start;}
+  .stat-row{display:flex;flex-direction:column;gap:22px;padding-top:6px;}
+  .stat{border-left:3px solid var(--oxide);padding-left:16px;}
+  .stat-num{display:block;font-family:'Big Shoulders Display',sans-serif;font-size:2rem;font-weight:800;}
+  .stat-label{font-family:'IBM Plex Mono',monospace;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.1em;color:#5B6165;}
+
+  /* products */
+  .card-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:44px;}
+  .card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px 22px;transition:transform .18s ease,box-shadow .18s ease;}
+  .card:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(29,32,35,0.08);}
+  .card-icon{width:54px;height:54px;border-radius:12px;display:flex;align-items:center;justify-content:center;background:rgba(46,107,132,0.12);color:var(--steel);margin-bottom:18px;}
+  .card-icon--oxide{background:rgba(193,68,43,0.12);color:var(--oxide-dark);}
+  .card-title{font-size:1.25rem;margin-bottom:10px;}
+  .card-body{font-size:0.94rem;color:#4A4F53;}
+
+  /* why us */
+  .feature-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:32px 40px;margin-top:44px;}
+  .feature{display:flex;gap:16px;align-items:flex-start;}
+  .feature-check{flex:0 0 auto;width:32px;height:32px;border-radius:50%;background:rgba(46,107,132,0.12);color:var(--steel);display:flex;align-items:center;justify-content:center;}
+  .feature-title{font-size:1.08rem;margin-bottom:6px;text-transform:none;font-family:'IBM Plex Sans',sans-serif;font-weight:600;}
+  .feature-body{font-size:0.94rem;color:#4A4F53;}
+  .section--dark .feature-body{color:#C7CBCC;}
+  .section--dark .feature-check{background:rgba(255,255,255,0.12);color:#fff;}
+
+  /* infrastructure */
+  .infra-inner{max-width:70ch;}
+  .infra-inner .section-body{max-width:65ch;}
+
+  /* colours */
+  .swatch-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:40px;}
+  .swatch{position:relative;aspect-ratio:4/3;border-radius:var(--radius);overflow:hidden;background-color:var(--swatch);background-image:repeating-linear-gradient(100deg,rgba(255,255,255,0.22) 0 3px,rgba(0,0,0,0.16) 3px 6px);}
+  .swatch .label{position:absolute;left:0;right:0;bottom:0;padding:10px 12px;background:rgba(0,0,0,0.48);color:#fff;font-family:'IBM Plex Mono',monospace;font-size:0.76rem;letter-spacing:0.03em;}
+
+  /* contact */
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:44px;align-items:stretch;}
+  .contact-cards{display:flex;flex-direction:column;gap:14px;}
+  .contact-card{display:flex;align-items:center;gap:16px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;transition:border-color .15s ease,transform .15s ease;}
+  a.contact-card:hover{border-color:var(--oxide);transform:translateX(3px);}
+  .contact-icon{flex:0 0 auto;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;}
+  .contact-icon--oxide{background:rgba(193,68,43,0.14);color:var(--oxide-dark);}
+  .contact-icon--steel{background:rgba(46,107,132,0.14);color:var(--steel);}
+  .contact-label{display:block;font-family:'IBM Plex Mono',monospace;font-size:0.68rem;text-transform:uppercase;letter-spacing:0.1em;color:#5B6165;margin-bottom:3px;}
+  .contact-value{display:block;font-weight:600;font-size:1rem;}
+  .map-card{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);min-height:320px;display:flex;flex-direction:column;background:#fff;}
+  .map-card-visual{position:relative;flex:1;min-height:180px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--steel) 0%,var(--steel-dark) 100%);overflow:hidden;}
+  .map-card-visual::before{content:'';position:absolute;inset:0;background-image:repeating-linear-gradient(100deg,rgba(255,255,255,0.07) 0 4px,rgba(0,0,0,0.07) 4px 8px);}
+  .map-card-visual svg{position:relative;z-index:1;color:#fff;opacity:0.92;}
+  .map-card-body{padding:20px;display:flex;flex-direction:column;gap:12px;border-top:1px solid var(--line);}
+  .map-card-address{font-size:0.96rem;color:#42474B;}
+  .map-card-body .btn{align-self:flex-start;}
+
+  /* footer */
+  .footer{background:var(--graphite-dark);color:#D7D9DA;padding:56px 0 24px;}
+  .footer-grid{display:grid;grid-template-columns:1.2fr 1fr 1.2fr;gap:32px;padding-bottom:32px;border-bottom:1px solid rgba(255,255,255,0.1);}
+  .footer .logo-main{color:#fff;}
+  .footer-tag{margin-top:10px;font-size:0.9rem;color:#A9ADAE;max-width:28ch;}
+  .footer-links{display:flex;flex-direction:column;gap:10px;font-size:0.92rem;}
+  .footer-links a:hover{color:#fff;}
+  .footer-contact{display:flex;flex-direction:column;gap:10px;font-size:0.92rem;}
+  .footer-heading{font-family:'IBM Plex Mono',monospace;font-size:0.68rem;text-transform:uppercase;letter-spacing:0.12em;color:#8B8F90;margin-bottom:6px;display:block;}
+  .footer-bottom{padding-top:20px;font-size:0.8rem;color:#8B8F90;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+
+  /* reveal */
+  .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease;}
+  .reveal.is-visible{opacity:1;transform:none;}
+
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.001ms !important;animation-iteration-count:1 !important;transition-duration:0.001ms !important;}
+    .reveal{opacity:1;transform:none;}
+    .swatch-track{animation:none;flex-wrap:wrap;width:100%;}
+  }
+
+  @media (max-width:900px){
+    .about-grid{grid-template-columns:1fr;}
+    .card-grid{grid-template-columns:repeat(2,1fr);}
+    .feature-grid{grid-template-columns:1fr;}
+    .contact-grid{grid-template-columns:1fr;}
+    .footer-grid{grid-template-columns:1fr;gap:24px;}
+    .swatch-grid{grid-template-columns:repeat(3,1fr);}
+  }
+
+  @media (max-width:720px){
+    .nav-links{
+      position:absolute;top:100%;left:0;right:0;background:var(--paper);
+      border-bottom:1px solid var(--line);flex-direction:column;gap:0;
+      max-height:0;overflow:hidden;padding:0 24px;transition:max-height .25s ease;
+    }
+    .nav-links.open{max-height:340px;padding:12px 24px 20px;}
+    .nav-links a{padding:10px 0;border-bottom:1px solid var(--line);}
+    .nav-actions .btn-primary{display:none;}
+    .nav-toggle{display:flex;}
+    .card-grid{grid-template-columns:1fr;}
+    .swatch-grid{grid-template-columns:repeat(2,1fr);}
+    .hero-actions{flex-direction:column;align-items:stretch;}
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="nav-row wrap">
+    <a class="logo" href="#top" aria-label="Shree Laxmi Industry, back to top">
+      <span class="logo-main">SHREE LAXMI</span>
+      <span class="logo-sub">INDUSTRY</span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#why-us">Why Us</a>
+      <a href="#infrastructure">Facility</a>
+      <a href="#colours">Colours</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-primary btn-sm" href="https://wa.me/917782821119" target="_blank" rel="noopener">WhatsApp Us</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="wrap hero-grid">
+      <p class="eyebrow">Manufactured in Deoghar, Jharkhand</p>
+      <h1 class="hero-title">Every Roof Deserves the Right Sheet.</h1>
+      <p class="hero-sub">Shree Laxmi Industry manufactures roofing sheets in the full range of colours and sizes, from our facility in Rajadih, Mathurapur, Deoghar — reaching homes and job sites across Jharkhand and beyond.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://wa.me/917782821119" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        <a class="btn btn-outline" href="tel:+917782821119">Call 77828 21119</a>
+      </div>
+    </div>
+    <div class="swatch-marquee" aria-hidden="true">
+      <div class="swatch-track" id="marqueeTrack"></div>
+    </div>
+  </section>
+
+  <section class="section section--oxide reveal" id="about">
+    <div class="wrap about-grid">
+      <div>
+        <p class="eyebrow">About Us</p>
+        <h2 class="section-title">Built By People Who Know Sheets.</h2>
+        <p class="section-body">Shree Laxmi Industry is led by Mrs. Anita Devi and Mr. Ajay Singh, backed by a team of more than 20 skilled hands across the shop floor, the counter, and the delivery routes. Our goal is straightforward: put the right roofing sheet within reach of every household and every builder — starting here in Jharkhand, and now reaching customers in other states as well.</p>
+      </div>
+      <div class="stat-row">
+        <div class="stat"><span class="stat-num">20+</span><span class="stat-label">Team Members</span></div>
+        <div class="stat"><span class="stat-num">All</span><span class="stat-label">Colours &amp; Sizes</span></div>
+        <div class="stat"><span class="stat-num">JH+</span><span class="stat-label">Jharkhand &amp; Beyond</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt reveal" id="products">
+    <div class="wrap">
+      <p class="eyebrow">What We Manufacture</p>
+      <h2 class="section-title">Sheets For Every Application</h2>
+      <div class="card-grid">
+        <article class="card">
+          <div class="card-icon"><svg width="30" height="30" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12c3 0 3-6 6-6s3 6 6 6 3-6 6-6 3 6 6 6"/><path d="M2 21c3 0 3-6 6-6s3 6 6 6 3-6 6-6 3 6 6 6"/></svg></div>
+          <h3 class="card-title">Corrugated GI Sheets</h3>
+          <p class="card-body">Galvanised for strength and long-term weather resistance — our most requested profile for homes, sheds, and warehouses.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon card-icon--oxide"><svg width="30" height="30" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="10" height="10" rx="2"/><rect x="18" y="4" width="10" height="10" rx="2"/><rect x="4" y="18" width="10" height="10" rx="2"/><rect x="18" y="18" width="10" height="10" rx="2"/></svg></div>
+          <h3 class="card-title">Colour-Coated Roofing Sheets</h3>
+          <p class="card-body">Pre-painted sheets in the full colour range, ready to match any building without extra site work.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon"><svg width="30" height="30" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4 28 11 16 18 4 11z"/><path d="M4 17l12 7 12-7"/><path d="M4 23l12 7 12-7"/></svg></div>
+          <h3 class="card-title">Insulated Roofing Panels</h3>
+          <p class="card-body">Layered panels that cut down heat and noise, built for spaces that need more comfort than a plain sheet gives.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon card-icon--oxide"><svg width="30" height="30" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 28V14l7 5v-5l7 5V10l8 6v12z"/><path d="M4 28h24"/></svg></div>
+          <h3 class="card-title">Industrial Roofing Sheets</h3>
+          <p class="card-body">Heavier-gauge sheets built for factory floors, godowns, and large-span structures.</p>
+        </article>
+      </div>
+      <p class="section-note">Every sheet above is available in the full range of colours and sizes — tell us the dimensions, and we'll cut to fit.</p>
+    </div>
+  </section>
+
+  <section class="section section--steel reveal" id="why-us">
+    <div class="wrap">
+      <p class="eyebrow">Why Builders Choose Us</p>
+      <h2 class="section-title">What You Get With Every Order</h2>
+      <div class="feature-grid">
+        <div class="feature">
+          <span class="feature-check"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+          <div><h3 class="feature-title">Full Colour &amp; Size Range</h3><p class="feature-body">No settling for the nearest match — order the exact shade and dimension your roof needs.</p></div>
+        </div>
+        <div class="feature">
+          <span class="feature-check"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+          <div><h3 class="feature-title">Built For Jharkhand's Weather</h3><p class="feature-body">Sheets built to hold up against monsoon rain and summer heat, not just to look good on day one.</p></div>
+        </div>
+        <div class="feature">
+          <span class="feature-check"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+          <div><h3 class="feature-title">Reach Beyond Jharkhand</h3><p class="feature-body">Regular dispatch across the state, and to customers in other states as well.</p></div>
+        </div>
+        <div class="feature">
+          <span class="feature-check"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+          <div><h3 class="feature-title">20+ Skilled Hands</h3><p class="feature-body">A team that has worked sheet metal for years, from the manufacturing floor to delivery.</p></div>
+        </div>
+        <div class="feature">
+          <span class="feature-check"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+          <div><h3 class="feature-title">Straightforward Pricing</h3><p class="feature-body">Fair rates whether you're roofing a single shed or a full godown.</p></div>
+        </div>
+        <div class="feature">
+          <span class="feature-check"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+          <div><h3 class="feature-title">Fast Turnaround</h3><p class="feature-body">Custom sizes cut and dispatched without unnecessary delay.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark reveal" id="infrastructure">
+    <div class="wrap infra-inner">
+      <p class="eyebrow">Our Facility</p>
+      <h2 class="section-title">A Set-Up Built To Keep Up With Demand.</h2>
+      <p class="section-body">Our manufacturing unit in Rajadih is equipped to handle everything from single-sheet requests to bulk orders for contractors and builders. Every sheet leaving the floor goes through the same quality checks, whether it's headed to a house next door or a project outside Jharkhand.</p>
+    </div>
+  </section>
+
+  <section class="section section--alt reveal" id="colours">
+    <div class="wrap">
+      <p class="eyebrow">Colour Chart</p>
+      <h2 class="section-title">Pick Any Shade. We'll Cut It To Size.</h2>
+      <div class="swatch-grid" id="swatchGrid"></div>
+      <p class="section-note">Don't see your exact shade here? Call or WhatsApp us — we manufacture beyond this chart too.</p>
+    </div>
+  </section>
+
+  <section class="section section--oxide reveal" id="contact">
+    <div class="wrap">
+      <p class="eyebrow">Get In Touch</p>
+      <h2 class="section-title">Talk To Us About Your Roof</h2>
+      <div class="contact-grid">
+        <div class="contact-cards">
+          <a class="contact-card" href="tel:+917782821119">
+            <span class="contact-icon contact-icon--oxide"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .7 2.9a2 2 0 0 1-.4 2.1L8 10a16 16 0 0 0 6 6l1.3-1.4a2 2 0 0 1 2.1-.4c.9.4 1.9.6 2.9.7a2 2 0 0 1 1.7 2.1z"/></svg></span>
+            <div><span class="contact-label">Call</span><span class="contact-value">77828 21119</span></div>
+          </a>
+          <a class="contact-card" href="https://wa.me/917782821119" target="_blank" rel="noopener">
+            <span class="contact-icon contact-icon--steel"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-12.4 7.5L3 20l1.1-5.4A8.5 8.5 0 1 1 21 11.5z"/><path d="M8.5 10.5c.3 2.3 2.7 4.7 5 5"/></svg></span>
+            <div><span class="contact-label">WhatsApp</span><span class="contact-value">77828 21119</span></div>
+          </a>
+          <a class="contact-card" href="mailto:shreelaxmiindustries@gmail.com">
+            <span class="contact-icon contact-icon--oxide"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+            <div><span class="contact-label">Email</span><span class="contact-value">shreelaxmiindustries@gmail.com</span></div>
+          </a>
+          <div class="contact-card">
+            <span class="contact-icon contact-icon--steel"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <div><span class="contact-label">Address</span><span class="contact-value">Rajadih, Mathurapur, Deoghar, Jharkhand</span></div>
+          </div>
+        </div>
+        <div class="map-card">
+          <div class="map-card-visual" aria-hidden="true">
+            <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div class="map-card-body">
+            <span class="contact-label">Find Us</span>
+            <p class="map-card-address">Rajadih, Mathurapur, Deoghar, Jharkhand</p>
+            <a class="btn btn-outline btn-sm" href="https://www.google.com/maps/search/?api=1&query=Rajadih,+Mathurapur,+Deoghar,+Jharkhand" target="_blank" rel="noopener">Open in Google Maps →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div>
+      <span class="logo-main">SHREE LAXMI</span>
+      <span class="logo-sub">INDUSTRY</span>
+      <p class="footer-tag">Roofing sheets, every colour, every size.</p>
+    </div>
+    <nav class="footer-links" aria-label="Footer">
+      <span class="footer-heading">Explore</span>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#why-us">Why Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="footer-contact">
+      <span class="footer-heading">Contact</span>
+      <a href="tel:+917782821119">77828 21119</a>
+      <a href="mailto:shreelaxmiindustries@gmail.com">shreelaxmiindustries@gmail.com</a>
+      <span>Rajadih, Mathurapur, Deoghar, Jharkhand</span>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© <span id="year"></span> Shree Laxmi Industry. All rights reserved.</span>
+    <span>Owned by Mrs. Anita Devi &amp; Mr. Ajay Singh</span>
+  </div>
+</footer>
+
+<script>
+  var COLOURS = [
+    { name: "Ashok Red", hex: "#B23A2E" },
+    { name: "Sea Green", hex: "#1E6F5C" },
+    { name: "Sky Blue", hex: "#2D6E9E" },
+    { name: "Ivory", hex: "#E8DFC2" },
+    { name: "Silver Grey", hex: "#A7ADB0" },
+    { name: "Chocolate Brown", hex: "#5B3A29" },
+    { name: "Bottle Green", hex: "#12463A" },
+    { name: "Sunshine Yellow", hex: "#E8B923" }
+  ];
+
+  function buildSwatchGrid(){
+    var grid = document.getElementById('swatchGrid');
+    grid.innerHTML = COLOURS.map(function(c){
+      return '<div class="swatch" style="--swatch:' + c.hex + '"><span class="label">' + c.name + '</span></div>';
+    }).join('');
+  }
+
+  function buildMarquee(){
+    var track = document.getElementById('marqueeTrack');
+    var doubled = COLOURS.concat(COLOURS);
+    track.innerHTML = doubled.map(function(c){
+      return '<div class="marquee-chip" style="--swatch:' + c.hex + '"><span>' + c.name + '</span></div>';
+    }).join('');
+  }
+
+  buildSwatchGrid();
+  buildMarquee();
+
+  var navToggle = document.getElementById('navToggle');
+  var navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', function(){
+    var isOpen = navLinks.classList.toggle('open');
+    navToggle.classList.toggle('active');
+    navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  navLinks.querySelectorAll('a').forEach(function(link){
+    link.addEventListener('click', function(){
+      navLinks.classList.remove('open');
+      navToggle.classList.remove('active');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  var header = document.getElementById('siteHeader');
+  window.addEventListener('scroll', function(){
+    header.classList.toggle('is-scrolled', window.scrollY > 8);
+  });
+
+  var revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    revealEls.forEach(function(el){ io.observe(el); });
+  } else {
+    revealEls.forEach(function(el){ el.classList.add('is-visible'); });
+  }
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
